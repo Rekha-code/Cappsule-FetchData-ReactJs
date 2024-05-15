@@ -1,0 +1,128 @@
+/* src/SearchScreen.css */
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+button.selected {
+  background-color: lightblue;
+  box-shadow: rgba(4, 244, 44, 0.35) 0px 5px 15px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: lightblue;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.search-bar-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 8%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.searchbar-input {
+  display: flex;
+  height: 70px;
+  gap: 30px;
+  padding: 10px 17px;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-right: 80px;
+}
+
+.search-icon {
+  position: absolute;
+  font-size: 31px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.search-input {
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #787474;
+  font-family: Outfit;
+  font-size: 18px;
+  width: 1000px;
+  margin-left: 60px;
+  font-size: 24px;
+  color: #ccc;
+}
+
+.search-button {
+
+  background-color: #fff;
+  color: #0e0c0c;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+}
+
+hr {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 60px;
+  color: #ccc;
+  opacity: 0.6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sell-btn {
+  padding: 10px 14px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid #00c5ff;
+  width: 263px;
+}
+
+hr {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 60px;
+  color: #ccc;
+  opacity: 0.6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
